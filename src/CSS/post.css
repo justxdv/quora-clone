@@ -1,0 +1,93 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.post-info {
+    display: flex;
+    align-items: center;
+}
+.post-info > h5 {
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.post-info > h5:hover {
+    text-decoration: underline;
+}
+.post-info > small {
+    margin-left: 10px;
+
+}
+
+.post-body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.post-question {
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+}
+.post-btn{
+    margin-left: auto;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+}
+
+
+.post-question > p:hover{
+    text-decoration: underline;
+}
+
+.post-body > img {
+    object-fit: contain;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;    
+}
+
+.post-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.post-answer >span {
+    font-size: smaller;
+}
+
+.post-footerAction{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    padding: 5px;
+    
+}
+
+.post-footerleft {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    padding: 5px;
+    position: relative;
+    top: 4px;
+}
+
+

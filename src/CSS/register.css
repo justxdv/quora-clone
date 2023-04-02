@@ -1,0 +1,47 @@
+.register {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: #fff;
+
+
+}
+
+.register-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    /* border: 1px solid grey; */
+    height: 25rem;
+    width: 30%;
+    margin-top: 50px;
+    border-radius: 25px;
+}
+
+.register-input {
+    width: 20rem;
+    margin: 20px 0;
+    border: none;
+    border-bottom: 1px solid grey;
+    align-items: center;
+    height: 2rem;
+    outline: none;
+
+
+}
+.register-btn {
+    width: 20rem;
+}
+
+.register-box  > h2 {
+    align-self: center;
+}
+
+a {
+    text-decoration: none;
+     color: gray;
+     margin-top: 10px;
+}

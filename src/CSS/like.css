@@ -1,0 +1,13 @@
+
+
+
+.likebtn{
+    background-color: transparent;
+    color: gray;
+    margin-right: 40px;                                      
+} 
+
+.like-count {
+    margin-right: 5px;
+    font-size: 27px;
+}
